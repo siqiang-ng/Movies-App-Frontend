@@ -1,0 +1,10 @@
+.item > .page-link {
+  color: white;
+  background-color: #282c34;
+}
+
+.item > a:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
