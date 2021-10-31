@@ -32,15 +32,6 @@ function convertStampDate(unixtimestamp) {
   // Day
   var day = date.getDate();
 
-  // // Hours
-  // var hours = date.getHours();
-
-  // // Minutes
-  // var minutes = "0" + date.getMinutes();
-
-  // // Seconds
-  // var seconds = "0" + date.getSeconds();
-
   // final date
   var convdataTime = day + " " + month + " " + year;
   return convdataTime;
@@ -71,8 +62,7 @@ const MovieCard = ({ data }) => {
           <CenteredModal
             show={showModal}
             onHide={() => setShowModal(false)}
-            title={data.title}
-            overview={data.overview}
+            data={data}
           />
         </Card.Body>
       </Card>
