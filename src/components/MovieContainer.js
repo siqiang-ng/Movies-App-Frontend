@@ -15,7 +15,7 @@ const MovieContainer = ({ movies }) => {
   return (
     <>
       <div className="container-fluid d-flex justify-content-around">
-        <Row equal>{movieCards}</Row>
+        <Row>{movieCards}</Row>
       </div>
     </>
   );
